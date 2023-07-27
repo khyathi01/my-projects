@@ -1,0 +1,2 @@
+inp = list(map(int,input().split()))
+print(1-inp[0],1-inp[1],2-inp[2],2-inp[3],2-inp[4],8-inp[5])
