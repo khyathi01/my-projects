@@ -1,0 +1,11 @@
+S = input().strip()
+unique_characters = set()
+for char in S:
+    char = char.lower()
+    if 'a' <= char <= 'z':
+        unique_characters.add(char)
+if len(unique_characters) == 26:
+    print("YES")
+else:
+    print("NO")
+        
